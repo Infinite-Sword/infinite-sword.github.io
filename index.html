@@ -6,6 +6,7 @@
       body {
         background-color: #F4F1DE;
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         height: 100vh;
@@ -26,16 +27,42 @@
         font-size: 150px;
         color: #000
       }
-      .taglinebox {
-        display: block;
+
+      .icons-row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+      }
+
+      .icons-row img {
+        height: 200px;
+        /* width: 100px; */
+        margin: 0 10px;
+      }
+      .txtlnk{
+        text-decoration: none;
       }
     </style>
   </head>
   <body>
+    <a href="https://www.patreon.com/Fisher42" class="txtlnk" target="about:_blank">
     <div class="circle">
         <span class="material-symbols-outlined">
             swords
         </span>
+    </div>
+    </a>
+    <div class="icons-row">
+        <a href="https://discord.gg/HpqYvVpyT4" target="about:_blank">
+            <img src="icon_clyde_blurple_RGB.png" alt="Discord">
+        </a>
+        <a href="https://www.nexusmods.com/users/77539483" target="about:_blank">
+          <img src="nm_icon.png" alt="NexusMods">
+      </a>
+        <a href="https://www.youtube.com/@SwordFisherVR" target="about:_blank">
+            <img src="yt_logo_rgb_light.png" alt="YouTube">
+        </a>
     </div>
   </body>
 </html>
